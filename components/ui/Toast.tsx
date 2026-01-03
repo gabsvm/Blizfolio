@@ -2,7 +2,6 @@ import React from 'react';
 import { useToastStore, ToastType } from '../../store/useToastStore';
 
 const ToastItem: React.FC<{ id: string; message: string; type: ToastType; onClose: () => void }> = ({
-  id,
   message,
   type,
   onClose,

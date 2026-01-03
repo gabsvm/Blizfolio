@@ -8,15 +8,6 @@ const STORAGE_KEYS = {
   PRODUCTS: 'bizfolio_products',
 };
 
-// Initial Mock Data
-const INITIAL_USER: User = {
-  id: 'u1',
-  email: 'demo@bizfolio.com',
-  name: 'Alex Founder',
-  role: 'admin',
-  avatar: 'https://picsum.photos/100/100',
-};
-
 const INITIAL_COMPANY: Company = {
   id: 'c1',
   legalName: 'Acme Innovations Ltd.',

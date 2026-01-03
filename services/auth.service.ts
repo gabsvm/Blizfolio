@@ -20,7 +20,7 @@ export const authService = {
     throw new Error('Invalid credentials');
   },
 
-  register: async (email: string, password: string): Promise<AuthResponse> => {
+  register: async (email: string, _password: string): Promise<AuthResponse> => {
     await mockDelay();
     const user: User = {
       id: `u-${Date.now()}`,

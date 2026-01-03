@@ -3,7 +3,6 @@ import { useForm } from 'react-hook-form';
 import { z } from 'zod';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { companyService } from '../services/company.service';
-import { Company } from '../types';
 import { Input } from '../components/ui/Input';
 import { Button } from '../components/ui/Button';
 import { useLanguageStore } from '../store/useLanguageStore';
@@ -136,6 +135,7 @@ export const CompanyProfile: React.FC = () => {
           </div>
         </div>
 
+        {/* Actions */}
         <div className="flex justify-end gap-4">
           <Button type="button" variant="ghost" onClick={() => window.history.back()}>{t('common.cancel')}</Button>
           <Button type="submit" isLoading={saving}>{t('company.save')}</Button>
