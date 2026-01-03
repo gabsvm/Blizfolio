@@ -9,13 +9,13 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "zod": "^4.3.4",
-    "react-router-dom": "^7.11.0",
-    "react": "^19.2.3",
+    "react": "18.3.1",
     "react-dom": "^19.2.3",
+    "react-router-dom": "6.28.0",
+    "zod": "3.23.8",
+    "react-hook-form": "7.53.0",
     "zustand": "^5.0.9",
-    "@hookform/resolvers": "^5.2.2",
-    "react-hook-form": "^7.69.0"
+    "@hookform/resolvers": "^5.2.2"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
